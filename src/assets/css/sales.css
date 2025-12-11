@@ -1,0 +1,108 @@
+/* App.css */
+.app-container {
+    display: flex;
+}
+
+.product-section {
+    flex: 3;
+    padding-right: 30px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.product-list{
+
+   background: #fff;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.search-input {
+    width: 100%; /* Chiều rộ
+    ng */
+
+    padding: 2px 5px; /* Tạo khoảng đệm bên trong */
+    font-size: 16px; /* Kích thước chữ */
+    border: none; /* Bỏ đường viền xung quanh */
+    border-bottom: 1px solid black; /* Chỉ có gạch chân */
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+
+
+
+.customer-info,
+.voucher-section,
+.summary {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.product-item img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+
+.voucher-section input {
+    margin-right: 10px;
+}
+
+.summary .total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.summary button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/*khach hang*/
+.khach-hang{
+    margin-top: 16px;
+    font-size: 14px;
+}
+.khach-hang label {
+    margin-top: 5px;
+}
+.Money {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+.MoneyFrom{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+
+}
+.transition-card {
+    transition: all 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+    opacity: 1;
+}
+
+.hidden {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
